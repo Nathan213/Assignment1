@@ -49,10 +49,6 @@ ul {
 .title ul{
     display: flex;
     justify-content: space-evenly;
-
-}
-
-.title ul li {
     margin: 10px;
 }
 
@@ -60,6 +56,7 @@ ul {
     display: relative;
 }
 
+/* style settings for the black left side */
 .black {
     z-index: 2;
     color: white;
@@ -69,6 +66,8 @@ ul {
     width: 50%;
     position: fixed;
 }
+
+/* style settings for the white right side */
 .white {
     z-index: 2;
     color: black;
@@ -81,6 +80,7 @@ ul {
     position: fixed;
 }
 
+/* video thumbnail */
 .video {
     z-index: 3;
     margin-top: 300px;
@@ -88,13 +88,12 @@ ul {
     transform: translate(-50%,0); 
     position: absolute;
 }
-
 .video img {
-    
     width: 400px;
     filter: drop-shadow(2px 2px 4px #888888);
 }
 
+/* style setting for black timeline ball */
 .dotB {
     z-index: 4;
     height: 25px;
@@ -109,7 +108,7 @@ ul {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-
+/* style setting for white timeline ball */
 .dotW {
     z-index: 4;
     height: 25px;
@@ -124,7 +123,7 @@ ul {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
+/* style setting for black timeline */
 .timelineB {
     z-index: 3;
     border-left: 6px solid white;
@@ -139,7 +138,7 @@ ul {
     mix-blend-mode: difference;
     margin-left: 2.5px;
 }
-
+/* churchill picture settings */
 .churchill {
     z-index: 4;
     border-left: 20px solid white;
@@ -153,7 +152,6 @@ ul {
     color: white;
     margin-left: 1px;
 }
-
 .content1 img{
     position: absolute;
     width: 130px;
@@ -162,7 +160,7 @@ ul {
     transform: translate(-50%,0); 
     opacity: 0.5;
 }
-
+/* MLK picture settings */
 .martin {
     z-index: 4;
     border-left: 20px solid white;
@@ -176,7 +174,6 @@ ul {
     color: white;
     margin-left: 1px;
 }
-
 .content2 img{
     position: absolute;
     width: 130px;
@@ -185,7 +182,7 @@ ul {
     transform: translate(-50%,0); 
     opacity: 0.5;
 }
-
+/* Obama picture settings */
 .obama {
     z-index: 4;
     border-left: 20px solid white;
@@ -199,7 +196,6 @@ ul {
     color: white;
     margin-left: 1px;
 }
-
 .content3 img{
     position: absolute;
     width: 130px;
@@ -209,6 +205,7 @@ ul {
         opacity: 0.5;
 }
 
+/* White timeline settings */
 .timelineW {
     z-index: 3;
     border-left: 6px solid white;
@@ -223,7 +220,7 @@ ul {
     mix-blend-mode: difference;
     margin-left: 2.5px;
 }
-
+/* Kim Kardashian picture settings */
 .kimk {
     z-index: 4;
     border-left: 20px solid white;
@@ -238,7 +235,6 @@ ul {
     margin-left: 1px;
     mix-blend-mode: normal;
 }
-
 .content4 img{
     position: absolute;
     width: 130px;
@@ -247,6 +243,7 @@ ul {
     transform: translate(-50%,0); 
     opacity: 0.5;
 }
+/* Six9ine picture settings */
 .tekashi {
     z-index: 4;
     border-left: 20px solid white;
@@ -260,7 +257,6 @@ ul {
     color: black;
     margin-left: 1px;
 }
-
 .content5 img{
     position: absolute;
     width: 130px;
@@ -270,6 +266,7 @@ ul {
     opacity: 0.5;
 }
 
+/* Logan Paul picture settings */
 .logan {
     z-index: 4;
     border-left: 20px solid white;
@@ -283,7 +280,6 @@ ul {
     color: black;
     margin-left: 1px;
 }
-
 .content6 img{
     position: absolute;
     width: 130px;
@@ -293,6 +289,7 @@ ul {
         opacity: 0.5;
 }
 
+/* Footer settings */
 .footer {
     z-index: 5;
     width: 100%;
@@ -303,6 +300,7 @@ ul {
     bottom: 0;
 }
 
+/* Actor page settings */
 .nathan {
     line-height: 40px;
     font-family: 'Redressed', cursive;
@@ -314,7 +312,6 @@ ul {
     position: absolute;
     display: inline-block;
 }
-
 .nathan img {
     max-width: 100%;
     max-height: 100%;
@@ -330,12 +327,12 @@ ul {
     position: absolute;
     display: inline-block;
 }
-
 .nick img {
     max-width: 100%;
     max-height: 100%;
 }
 
+/* inspiration and review page settings */
 .inspo {
     font-family: 'Redressed', cursive;
     z-index: 5;
