@@ -1,7 +1,9 @@
 # 30MFF: "The Sorrows of Progression"
 ## Project Description
-what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.
+This project is a short video about speeches and the dichotomy of history. It was mainly inspired by the movie "The King's Speech." The movie is about the story of King George the VI, the king who perservered through speech disabilities and delivered one of the msot iconic speeches of World War II. While the world we live in today is the safest it has ever been, such grandoise moments have also faded away. This video aims to highlight the lack of legends in our time. 
+
+While using the website, the user is supposed to feel a sense of sadness. The two sides of the website is designed to spark a contrast between the greats of history and today. Apart from the main page, the actors button links the users to the actors bio. The Inspiration page leads to the inspiration story. The reviews page leads to a fake review by members of the academy. There is a copyright footer for every page. 
 ## Process
-How did you go about implementing the concept.
+I wanted to stick close to how my wireframe looked, focusing mainly on the contrast of black and white. There were several ways to implement the timeline concept, the method I went with was a static timeline with timeline dots that stuck to the center of the screen. 
 ## Reflection
- This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version.
+Overall, I think the outlines and framework of the website fit what I set out to do. The mixBlendMode was really helpful in creating further contrast between the left and right sides. However, there are several things I still want to change about the website. One, the current website is still too buggy. The timeline dot scrolls according to my laptop screen, and other laptop dimensions makes the dots inaccurate. This leads to the images lighting up when its not supposed to. Another issue is that when the dot is overlapping with another div, the code does not detect the hovering mouse at the overlays. This was also not my original approach to the timeline. I wanted to have the code detect when the dot and the timeline dots overlay and automatically highlight the corresponding picture. Instead, I still need to hover the mouse over the dot to highlight the picture. 
