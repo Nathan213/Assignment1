@@ -27,16 +27,16 @@ function getRelativeCoordinates(mouse, element){
     console.log(enterB);
     dotB.style.width = "50px";
     dotB.style.height = "50px";
-    if (window.scrollY<= 210){
+    if (percent >= -0.38){
         document.getElementById("churchill").style.opacity = "1";
         document.getElementById("linkB").setAttribute('href', 'https://en.wikipedia.org/wiki/Winston_Churchill')
     }
-    else if (window.scrollY<= 360){
+    else if (percent >= -0.71){
         document.getElementById("martin").style.opacity = "1";
         document.getElementById("linkB").setAttribute('href', 'https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.')
     }
     
-    else if (window.scrollY <= 620){
+    else if (percent >= -1.10){
         document.getElementById("obama").style.opacity = "1";
         document.getElementById("linkB").setAttribute('href', 'https://en.wikipedia.org/wiki/Barack_Obama')
     }
@@ -58,16 +58,16 @@ dotW.addEventListener('mouseenter', function(){
     console.log("here");
     dotW.style.width = "50px";
     dotW.style.height = "50px";
-    if (window.scrollY<= 210){
+    if (percent >= -0.38){
         document.getElementById("kimk").style.opacity = "1";
         document.getElementById("linkW").setAttribute('href', 'https://en.wikipedia.org/wiki/Kim_Kardashian')
     }
-    else if (window.scrollY<= 360){
+    else if (percent >= -0.71){
         document.getElementById("tekashi").style.opacity = "1";
         document.getElementById("linkW").setAttribute('href', 'https://en.wikipedia.org/wiki/6ix9ine')
     }
     
-    else if (window.scrollY <= 620){
+    else if (percent >= -1.10){
         document.getElementById("logan").style.opacity = "1";
         document.getElementById("linkW").setAttribute('href', 'https://en.wikipedia.org/wiki/Logan_Paul')
     }
@@ -90,7 +90,9 @@ function getScrollPercent()
   return window.scrollY / scrollRange;
 }
 
+var percent = getScrollPercent();
 window.addEventListener('scroll', function(e){
-  console.log(window.scrollY, getScrollPercent());
-  let percent = getScrollPercent();
+  // console.log(window.scrollY, getScrollPercent());
+  percent = getScrollPercent();
+  console.log(percent)
 });
